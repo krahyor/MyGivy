@@ -12,7 +12,7 @@ class GameWidget(Widget):
             self._on_keyboard_closed, self)
         self._keyboard.bind(on_key_down=self._on_key_down)
         self._keyboard.bind(on_key_up=self._on_key_up)
-        
+
         self.pressed_keys = set()
         Clock.schedule_interval(self.move_step, 0)
 
