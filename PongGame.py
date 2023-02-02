@@ -37,7 +37,7 @@ class GameWidget(Widget):
         cur_x = self.hero.pos[0]
         cur_y = self.hero.pos[1]
 
-        step = 100 * dt
+        step = 1000 * dt
 
         if 'w' in self.pressed_keys:
             cur_y += step
