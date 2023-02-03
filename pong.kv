@@ -2,12 +2,15 @@
     size: 50, 50 
     canvas:
         Ellipse:
+            source : 'hero.png'
             pos: self.pos
             size: self.size          
 
 <PongPaddle>:
     size: 25, 200
     canvas:
+        Color:
+            rgb : 0.5, 0 , 0.5 , 1
         Rectangle:
             pos: self.pos
             size: self.size
